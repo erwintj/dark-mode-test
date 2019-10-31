@@ -23,13 +23,14 @@
 
 :root {
   color-scheme: light dark;
-  --special-text-color: hsla(60, 100%, 50%, 0.5);
+  --special-text-color: hsla(207, 100%, 50%, 0.685);
   --border-color: white;
+  --svg-fill-color: white;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --special-text-color: hsla(60, 50%, 70%, 0.75);
+      --special-text-color: hsla(0, 97%, 86%, 0.75);
       --border-color: black;
   }
 }
